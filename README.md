@@ -4,8 +4,8 @@ A variable capacitor bank built from DIP switches. Six decades of coverage (1 nF
 
 ![DIPcap board](images/dipcap-angled.jpeg)
 
-<a href="https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fatait%2FDIPcap%2Ftree%2Fmain%2Fsrc"><img src="images/kicanvas-logo.png" alt="Kicanvas icon" width="50"></a>
-[Explore the files on KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fatait%2FDIPcap%2Ftree%2Fmain%2Fsrc)
+<a href="https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fatait%2FDIPcap%2Ftree%2Fmain%2Fdipcap-src"><img src="images/kicanvas-logo.png" alt="Kicanvas icon" width="50"></a>
+[Explore the files on KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fatait%2FDIPcap%2Ftree%2Fmain%2Fdipcap-src)
 
 
 
