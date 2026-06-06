@@ -2,24 +2,26 @@
 
 A variable capacitor bank built from DIP switches. Six decades of coverage (1 nF to 1 mF) for under $10 to build.
 
-![DIPcap board](images/dipcap-top.jpeg)
+![DIPcap board](images/dipcap-angled.jpeg)
 
 ## What it is
 
-DIPcap is a bench tool and educational tool. It covers six decades with 24 switches arranged in three groups of eight, using a non-standard but deliberate value series that *guarantees full range coverage* with the optimal number of switches per decade.
+DIPcap covers six decades with 24 switches arranged in three groups of eight, using a non-standard but deliberate value series that guarantees full range coverage with the optimal number of switches per decade.
 
-The calibration guarantee is the interesting part: even with ±20% tolerance on individual capacitors, some combination of switches will converge on any target value.
+The calibration guarantee is the interesting part: even with ±10% tolerance on individual capacitors, some combination of switches will converge on any target value.
+
+![DIPcap board](images/dipcap-top.jpeg)
 
 ## Specifications
 
 | Parameter | Value |
 |---|---|
 | Range | 1 nF – 1,130 µF |
-| Decades | 6 |
+| Max voltage | 0-35V, or ±50V for values < 1 µF |
+| Tolerance (dead reckoning) | ±10% |
 | Parasitic capacitance (all off) | 28 pF (measured) |
-| Max voltage | 35V, or ±50V for values < 1 µF |
 | Output connector | BNC + screw terminal + pin header |
-| Cost to build | ~$10/unit (panelized at 16) |
+| Cost to build | ~$10/unit (panelized at 8) |
 
 ![](images/zoom-electrolytic.jpeg)
 
@@ -42,7 +44,7 @@ The choice of four switches per decade follows from a coverage argument:
 ## Instructions
 
 There are two ways to use DIPcap:
-1. Dead reckoning — set by remainder approximation to within ±20%
+1. Dead reckoning — set by remainder approximation to within ±10%
 2. Calibration — engage the series resistor, measure the RC time constant on a scope, and back out the exact capacitance regardless of component tolerance
 
 The instructions are silkscreened on the back of the board.
